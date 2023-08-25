@@ -25,7 +25,7 @@
       "image": "apero.png"
     },
     "system":{
-      "timeout": 1000
+      "timeout": 500
     }
   }
 }
