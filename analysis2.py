@@ -46,9 +46,9 @@ df = pd.DataFrame({
 })
 
 # plot individual lines
-plt.plot(df['de_eint'], label='De Eint')
-plt.plot(df['de_scharf'], label='De Scharf')
-plt.plot(df['de_vegi'], label='De Vegi')
+plt.plot(df['de_eint'], label='De Eint',color='blue', linewidth=.5)
+plt.plot(df['de_scharf'], label='De Scharf', color='red', linewidth=.5)
+plt.plot(df['de_vegi'], label='De Vegi', color='green', linewidth=.5)
 
 plt.legend()
 plt.title('Summarized Piadina Sales per Type', fontsize=16)
