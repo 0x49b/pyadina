@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-caribou = "^0.3.0"
+caribou = "^0.6.0"
 pywebview = "^4.2.2"
 fpdf2 = "^2.7.4"
 matplotlib = "^3.7.2"
